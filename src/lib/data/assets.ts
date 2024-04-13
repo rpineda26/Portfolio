@@ -84,7 +84,7 @@ const Assets = {
 	DistributedSC0: a('nodes.png'),
 	DistributedSC1: a('distributed.png'),
 	DistributedSC2: a('distributed2.png'),
-	DocCLISC1: a('doc_cli.png'),
+	DocCLISC1: a('doc_cli1.png'),
 	DocCLISC2: a('medcli2.png'),
 	DocCLISC3: a('medcli3.png'),
 	PhExploreSC1: a('phexplore1.png'),
