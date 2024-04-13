@@ -90,7 +90,7 @@ export const items: Array<Project> = [
 			from: new Date()
 		},
 		skills: getSkills('web-app', 'nosql', 'tailwind', 'sass'),
-		type: 'Website Application',
+		type: 'Website Application'
 
 	},
 	{
