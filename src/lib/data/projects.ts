@@ -57,8 +57,8 @@ export const items: Array<Project> = [
 		logo: Assets.AnimoHub,
 		name: 'AnimoHub',
 		period: {
-			from: new Date(2023,9,15),
-			to: new Date(2023,11,1)
+			from: new Date(2023,5,16),
+			to: new Date(2023,7,6)
 		},
 		skills: getSkills('web-app', 'communication', 'nosql', 'git'),
 		type: 'Website Application',
@@ -89,8 +89,8 @@ export const items: Array<Project> = [
 		logo: Assets.Discord,
 		name: 'Medical Chatbot - Discord',
 		period: {
-			from: new Date(2023,10,1),
-			to: new Date(2023,10,30)
+			from: new Date(2023,3,1),
+			to: new Date(2023,3,11)
 		},
 		skills: getSkills('web-app', 'git', 'learner', 'communication'),
 		type: 'Website Application'
