@@ -88,7 +88,7 @@ const Assets = {
 	DocCLISC2: b('images/medcli2.png'),
 	DocCLISC3: b('images/medcli3.png'),
 	PhExploreSC1: b('images/phexplore1.png'),
-	PhExploreSC2: b('images/phexplore2.png'),
+	PhExploreSC2: b('images/phexplore2.jpg'),
 	PhExploreSC3: b('images/phexplore3.png'),
 	PhExploreSC4: b('images/phexplore4.png'),
 	PhExploreSC5: b('images/phexplore5.png'),
