@@ -12,7 +12,7 @@ export const items: Array<Experience> = [
 		type: 'Software Development',
 		location: 'DLSU',
 		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
+		skills: getSkills('communication'),
 		name: 'Team Leader',
 		color: 'green',
 		links: [],

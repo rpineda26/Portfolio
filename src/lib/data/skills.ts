@@ -40,8 +40,8 @@ export const items = [
 		slug: 'sql',
 		color: 'yellow',
 		description:
-			'I have good foundation in designing normalized relational database schemas and writing optimized queries. I have experience with integrating SQL databases with web applications and android applications. I also have experience with deploying distributed database with horizontal fragmentation.',
-		logo: Assets.JavaScript,
+			'I have a good foundation in designing normalized relational database schemas and writing optimized queries based on given requirements. I have projects where I have integrating SQL databases with web applications and android applications. I also have experience with deploying distributed database with horizontal fragmentation.',
+		logo: Assets.PostgreSQL,
 		name: 'SQL',
 		category: 'db'
 	}),
@@ -49,14 +49,14 @@ export const items = [
 		slug: 'nosql',
 		color: 'yellow',
 		description:
-			'I have experience with NoSQL databases such as MongoDB, Firebase Firestore. I have experience with designing NoSQL database schemas and integrating them with web applications and android applications.',
-		logo: Assets.JavaScript,
+			'I have developed web applications and android applications that connect with a nosql database. I have a solid grasp on designing schemas based on on application requirements.',
+		logo: Assets.MongoDB,
 		name: 'NOSQL',
 		category: 'db'
 	}),
 	defineSkill({
 		slug: 'web-app',
-		color: 'yellow',
+		color: 'blue',
 		description: 'I have strong foundations on creating a full stack web application with CRUD capabilities. My skills are more refined in backend development. I can recreate predesigned frontend pages but I have still a lot of room for progress in terms of creating my own designs.',
 		logo: Assets.JavaScript,
 		name: 'web application',
@@ -64,30 +64,50 @@ export const items = [
 	}),
 	defineSkill({
 		slug: 'android-app',
-		color: 'yellow',
+		color: 'blue',
 		description: 'I can develop full-stack android applications usign Java or Kotlin. I have strong fundamentals in object-oriented paradigm, android lifecycle activies, and the model-view-cotnroller structure. I can create applications with concurrent threads and services.',	
-		logo: Assets.JavaScript,
+		logo: Assets.Kotlin,
 		name: 'android application',
 		category: 'soft-dev'
 	}),
 	defineSkill({
 		slug: 'test',
-		color: 'yellow',
-		description: 'I have strong foundations on creating a full stack web application with CRUD capabilities. My skills are more refined in backend development. I can recreate predesigned frontend pages but I have still a lot of room for progress in terms of creating my own designs.',
-		logo: Assets.JavaScript,
+		color: 'blue',
+		description: 
+		'I have taken the role of quality assurance tester in group projects that observe the AGILE methodology. ;'
+		+'I can create unit tests and implement a test-driven development practice in a project. I have used JUnit, Mockito, and Jest in my projects.'
+		+' I am used to creating test cases based on the requirements even for small individual projects to make sure the program I am making is correct.',
+		logo: Assets.Jest,
 		name: 'Quality Test',
 		category: 'soft-dev'
 	}),
-
+	defineSkill({
+		slug: 'git',
+		color: 'blue',
+		description: 
+		'I use git for version control in my projects. I follow the best practices in creating branches, merging, and writing commit messages. I utilize the git issues feature in tracking the bugs for our sprints as a tester in a project.',
+		logo: Assets.JavaScript,
+		name: 'Git',
+		category: 'soft-dev'
+	}),
 
 	defineSkill({
 		slug: 'communication',
 		color: 'green',
-		description: 'I am a team player',
-		name: 'Communication',
+		description: 'I ',
+		name: 'I communicate with my team members and am not afraid to ask questions or clarify things. I can express my ideas with clarity . I take the initiative to ask for feedback and I am open to constructive criticism. I can also give feedback to my team members in a respectful manner.',
 		category: 'soft',
 		logo: Assets.Svelte
 	}),
+	defineSkill({
+		slug: 'learner',
+		color: 'green',
+		description: 'I am an eager learner and am always curious about new technologies and methodologies. I love taking on new challenges and putting myself on the edge of my comfort zone.',
+		name: 'Learner',
+		category: 'soft',
+		logo: Assets.Svelte
+	}),
+
 ] as const;
 
 export const title = 'Skills';

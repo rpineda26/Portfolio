@@ -19,7 +19,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('kotlin', 'nosql', 'android-app'),
+		skills: getSkills('git', 'nosql', 'android-app'),
 		type: 'Android Application',
 		screenshots: [
 			{
@@ -58,7 +58,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('web-app', 'nosql', 'tailwind', 'sass'),
+		skills: getSkills('web-app', 'communication', 'nosql', 'git'),
 		type: 'Website Application',
 		screenshots: [
 			{
@@ -77,7 +77,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'medical-chatbot-discord',
-		color: '#ff3e00',
+		color: '#5e95e3',
 		description:
 		'A discord application where the chatbot will ask the patient a predefined set of questions. The chatbot will provide the most probable diagnosis based on the patient\'s answers. '
 		+'My contribution to the group is the implementation of the knowledgebase in the backend of the application. The knowledgebase is written in tau prolog and it contains the relations of illnesses and their symptoms. The symptoms are weighted in their relation to an illness. ',
@@ -89,7 +89,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('web-app', 'nosql', 'tailwind', 'sass'),
+		skills: getSkills('web-app', 'git', 'learner', 'communication'),
 		type: 'Website Application'
 
 	},
@@ -106,7 +106,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('web-app', 'nosql', 'tailwind', 'sass'),
+		skills: getSkills('learner', 'test'),
 		type: 'Website Application',
 		screenshots: [
 			{
@@ -125,7 +125,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'distributed-database-system',
-		color: '#ff3e00',
+		color: '#5e95e3',
 		description:
 		'A web application that communicates with a distributed database. The distributed database is implemented with a master-master architecture where all nodes are capable of both read and write operations. The database is fragmented horizontally where the data are separated on the shard nodes based on the region. The first shard node is based in Luzon and the second shard node is based in Visayas and Mindanao. The central node contains all the data from both shard nodes. The backend of the web application is designed to make the application available even when the central node or both shard nodes fail. The failed nodes will be  able to recover the data transactions they missed when they were inaccessible once they become available.' ,
 		shortDescription:
@@ -136,7 +136,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('web-app', 'nosql', 'tailwind', 'sass'),
+		skills: getSkills('web-app', 'sql', 'communication', 'learner', 'git', 'test'),
 		type: 'Website Application',
 		screenshots: [
 			{
