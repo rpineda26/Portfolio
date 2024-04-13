@@ -63,7 +63,7 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Profile Page',
-				src: Assets.AnimoHubSC1
+				src: Assets.JavaScript
 			},
 			{
 				label: 'Comment Section',
