@@ -63,15 +63,15 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Profile Page',
-				src: './images/animohub1.png'
+				src: '/images/animohub1.png'
 			},
 			{
 				label: 'Comment Section',
-				src: './images/animohub2.png'
+				src: '/images/animohub2.png'
 			},
 			{
 				label: 'Login Page',
-				src: './images/animohub3.png'
+				src: '/images/animohub3.png'
 			}
 		]
 	},
