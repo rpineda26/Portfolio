@@ -94,8 +94,8 @@ export const items = [
 	defineSkill({
 		slug: 'communication',
 		color: 'green',
-		description: 'I ',
-		name: 'I communicate with my team members and am not afraid to ask questions or clarify things. I can express my ideas with clarity . I take the initiative to ask for feedback and I am open to constructive criticism. I can also give feedback to my team members in a respectful manner.',
+		description: 'I communicate with my team members and am not afraid to ask questions or clarify things. I can express my ideas with clarity . I take the initiative to ask for feedback and I am open to constructive criticism. I can also give feedback to my team members in a respectful manner.',
+		name: 'Communication',
 		category: 'soft',
 		logo: Assets.Svelte
 	}),
