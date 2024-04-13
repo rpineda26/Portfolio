@@ -17,7 +17,8 @@ export const items: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'PHexplore',
 		period: {
-			from: new Date()
+			from: new Date(2024,1,15),
+			to: new Date(2024,3,1)
 		},
 		skills: getSkills('git', 'nosql', 'android-app'),
 		type: 'Android Application',
@@ -56,7 +57,8 @@ export const items: Array<Project> = [
 		logo: Assets.AnimoHub,
 		name: 'AnimoHub',
 		period: {
-			from: new Date()
+			from: new Date(2023,9,15),
+			to: new Date(2023,11,1)
 		},
 		skills: getSkills('web-app', 'communication', 'nosql', 'git'),
 		type: 'Website Application',
@@ -87,7 +89,8 @@ export const items: Array<Project> = [
 		logo: Assets.Discord,
 		name: 'Medical Chatbot - Discord',
 		period: {
-			from: new Date()
+			from: new Date(2023,10,1),
+			to: new Date(2023,10,30)
 		},
 		skills: getSkills('web-app', 'git', 'learner', 'communication'),
 		type: 'Website Application'
@@ -104,7 +107,8 @@ export const items: Array<Project> = [
 		logo: Assets.Medicine,
 		name: 'Medical Chatbot - CLI',
 		period: {
-			from: new Date()
+			from: new Date(2022,1,15),
+			to:new Date(2022,3,1)
 		},
 		skills: getSkills('learner', 'test'),
 		type: 'Website Application',
@@ -134,7 +138,8 @@ export const items: Array<Project> = [
 		logo: Assets.Database,
 		name: 'Distributed Database System',
 		period: {
-			from: new Date()
+			from: new Date(2024, 4,1),
+			to: new Date(2024, 4, 12)
 		},
 		skills: getSkills('web-app', 'sql', 'communication', 'learner', 'git', 'test'),
 		type: 'Website Application',
