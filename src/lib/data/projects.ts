@@ -24,23 +24,23 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Home Page',
-				src: 'images/phexplore1.png'
+				src: Assets.PhExploreSC1
 			},
 			{
 				label: 'Facebook Share API',
-				src: 'images/phexplore2.jpg'
+				src: Assets.PhExploreSC2
 			},
 			{
 				label: 'Google Maps API',
-				src: 'images/phexplore3.png'
+				src: Assets.PhExploreSC3
 			},
 			{
 				label: 'Destination Page',
-				src: 'images/phexplore4.png'
+				src:Assets.PhExploreSC4
 			},
 			{
 				label: 'User Profile Page',
-				src: 'images/phexplore5.png'
+				src: Assets.PhExploreSC5
 			}
 		]
 	},
@@ -63,15 +63,15 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Profile Page',
-				src: Assets.JavaScript
+				src: Assets.AnimoHubSC1
 			},
 			{
 				label: 'Comment Section',
-				src: 'images/animohub2.png'
+				src: Assets.AnimoHubSC2
 			},
 			{
 				label: 'Login Page',
-				src: 'images/animohub3.png'
+				src: Assets.AnimoHubSC3
 			}
 		]
 	},
@@ -111,15 +111,15 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Auto Correct Spelling',
-				src: 'images/doc_cli1.png'
+				src: Assets.DocCLISC1
 			},
 			{
 				label: 'Automated Testing',
-				src: 'images/medcli2.png'
+				src: Assets.DocCLISC2
 			},
 			{
 				label: 'File Output',
-				src: 'images/medcli3.png'
+				src: Assets.DocCLISC3
 			},
 		]
 	},
@@ -141,13 +141,16 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Proxmox Server',
-				src: 'images/nodes.png'},
+				src: Assets.DistributedSC0
+			},
 			{
 				label: 'Home Page',
-				src: 'images/distributed.png'},
+				src: Assets.DistributedSC1
+			},
 			{
 				label: 'Transaction Log',
-				src: 'images/distributed2.png'},
+				src: Assets.DistributedSC2
+			},
 
 		]
 	},
