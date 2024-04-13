@@ -6,10 +6,6 @@ const gh = (file: string) => `${base}/logos/${file}`;
 
 const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
-const hj = (file: string) => `${base}/images/${file}`;
-
-const b = (light: string, dark?: string): Asset =>
-		dark ? { dark: hj(dark), light: hj(light) } : hj(light);
 const Assets = {
 	AWS: a('aws.svg'),
 	Bootstrap: a('bootstrap.svg'),
@@ -78,20 +74,20 @@ const Assets = {
 	Database: a('database.png'),
 	Discord: a('discord.png'),
 	AnimoHub: a('sheep.svg'),
-	AnimoHubSC1: b('images/animohub1.png'),
-	AnimoHubSC2: b('images/animohub2.png'),
-	AnimoHubSC3: b('images/animohub3.png'),
-	DistributedSC0: b('images/nodes.png'),
-	DistributedSC1: b('images/distributed.png'),
-	DistributedSC2: b('images/distributed2.png'),
-	DocCLISC1: b('images/doc_cli.png'),
-	DocCLISC2: b('images/medcli2.png'),
-	DocCLISC3: b('images/medcli3.png'),
-	PhExploreSC1: b('images/phexplore1.png'),
-	PhExploreSC2: b('images/phexplore2.jpg'),
-	PhExploreSC3: b('images/phexplore3.png'),
-	PhExploreSC4: b('images/phexplore4.png'),
-	PhExploreSC5: b('images/phexplore5.png'),
+	AnimoHubSC1: a('images/animohub1.png'),
+	AnimoHubSC2: a('images/animohub2.png'),
+	AnimoHubSC3: a('images/animohub3.png'),
+	DistributedSC0: a('images/nodes.png'),
+	DistributedSC1: a('images/distributed.png'),
+	DistributedSC2: a('images/distributed2.png'),
+	DocCLISC1: a('images/doc_cli.png'),
+	DocCLISC2: a('images/medcli2.png'),
+	DocCLISC3: a('images/medcli3.png'),
+	PhExploreSC1: a('images/phexplore1.png'),
+	PhExploreSC2: a('images/phexplore2.jpg'),
+	PhExploreSC3: a('images/phexplore3.png'),
+	PhExploreSC4: a('images/phexplore4.png'),
+	PhExploreSC5: a('images/phexplore5.png'),
 
 };
 
