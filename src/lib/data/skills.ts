@@ -86,7 +86,7 @@ export const items = [
 		color: 'blue',
 		description: 
 		'I use git for version control in my projects. I follow the best practices in creating branches, merging, and writing commit messages. I utilize the git issues feature in tracking the bugs for our sprints as a tester in a project.',
-		logo: Assets.JavaScript,
+		logo: Assets.Git,
 		name: 'Git',
 		category: 'soft-dev'
 	}),
@@ -97,7 +97,7 @@ export const items = [
 		description: 'I communicate with my team members and am not afraid to ask questions or clarify things. I can express my ideas with clarity . I take the initiative to ask for feedback and I am open to constructive criticism. I can also give feedback to my team members in a respectful manner.',
 		name: 'Communication',
 		category: 'soft',
-		logo: Assets.Svelte
+		logo: 'https://www.flaticon.com/free-icon/chat_610413'
 	}),
 	defineSkill({
 		slug: 'learner',
@@ -105,7 +105,7 @@ export const items = [
 		description: 'I am an eager learner and am always curious about new technologies and methodologies. I love taking on new challenges and putting myself on the edge of my comfort zone.',
 		name: 'Learner',
 		category: 'soft',
-		logo: Assets.Svelte
+		logo: 'https://www.flaticon.com/free-icon/machine-learning_8637091'
 	}),
 
 ] as const;

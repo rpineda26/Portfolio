@@ -15,6 +15,7 @@ const Assets = {
 	Django: a('django.svg'),
 	FastApi: a('fastapi'),
 	Flask: a('flask.svg'),
+	Git: a('git.svg'),
 	Go: a('go.svg'),
 	Kafka: a('kafka.svg'),
 	Neo4j: a('neo4j.svg'),
