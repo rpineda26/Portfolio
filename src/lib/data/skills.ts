@@ -65,7 +65,7 @@ export const items = [
 	defineSkill({
 		slug: 'android-app',
 		color: 'blue',
-		description: 'I can develop full-stack android applications usign Java or Kotlin. I have strong fundamentals in object-oriented paradigm, android lifecycle activies, and the model-view-cotnroller structure. I can create applications with concurrent threads and services.',	
+		description: 'I can develop full-stack android applications using Java or Kotlin. I have strong fundamentals in object-oriented paradigm, android lifecycle activies, and the model-view-cotnroller structure. I can create applications with concurrent threads and services.',	
 		logo: Assets.Android,
 		name: 'android application',
 		category: 'soft-dev'
