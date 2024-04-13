@@ -63,15 +63,15 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Profile Page',
-				src: '/images/animohub1.png'
+				src: './images/animohub1.png'
 			},
 			{
 				label: 'Comment Section',
-				src: '/images/animohub2.png'
+				src: './images/animohub2.png'
 			},
 			{
 				label: 'Login Page',
-				src: '/images/animohub3.png'
+				src: './images/animohub3.png'
 			}
 		]
 	},
@@ -111,15 +111,15 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Auto Correct Spelling',
-				src: '/images/doc_cli1.png'
+				src: './images/doc_cli1.png'
 			},
 			{
 				label: 'Automated Testing',
-				src: '/images/medcli2.png'
+				src: './images/medcli2.png'
 			},
 			{
 				label: 'File Output',
-				src: '/images/medcli3.png'
+				src: './images/medcli3.png'
 			},
 		]
 	},
@@ -141,13 +141,13 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Proxmox Server',
-				src: '/images/nodes.png'},
+				src: './images/nodes.png'},
 			{
 				label: 'Home Page',
-				src: '/images/distributed.png'},
+				src: './images/distributed.png'},
 			{
 				label: 'Transaction Log',
-				src: '/images/distributed2.png'},
+				src: './images/distributed2.png'},
 
 		]
 	},
