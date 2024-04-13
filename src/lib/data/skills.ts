@@ -59,7 +59,7 @@ export const items = [
 		color: 'blue',
 		description: 'I have strong foundations on creating a full stack web application with CRUD capabilities. My skills are more refined in backend development. I can recreate predesigned frontend pages but I have still a lot of room for progress in terms of creating my own designs.',
 		logo: Assets.JavaScript,
-		name: 'web application',
+		name: 'Web Application',
 		category: 'soft-dev'
 	}),
 	defineSkill({
@@ -67,7 +67,7 @@ export const items = [
 		color: 'blue',
 		description: 'I can develop full-stack android applications using Java or Kotlin. I have strong fundamentals in object-oriented paradigm, android lifecycle activies, and the model-view-cotnroller structure. I can create applications with concurrent threads and services.',	
 		logo: Assets.Android,
-		name: 'android application',
+		name: 'Android Application',
 		category: 'soft-dev'
 	}),
 	defineSkill({
